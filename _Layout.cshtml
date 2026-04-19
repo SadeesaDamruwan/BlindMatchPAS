@@ -1,0 +1,191 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - NSBM Dashboard</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <style>
+        /* --- THEME VARIABLES --- */
+        :root {
+            --sidebar-bg: #2c3e50;
+            --sidebar-text: #bdc3c7;
+            --content-bg: #f4f6f9;
+            --topbar-bg: #ffffff;
+            --card-bg: #ffffff;
+            --text-main: #2b3674;
+        }
+
+        [data-theme="dark"] {
+            --sidebar-bg: #111c44;
+            --content-bg: #0b1437;
+            --topbar-bg: #111c44;
+            --card-bg: #111c44;
+            --text-main: #ffffff;
+        }
+
+        /* --- LAYOUT STYLES --- */
+        body {
+            margin: 0;
+            background-color: var(--content-bg);
+            font-family: 'Segoe UI', sans-serif;
+            transition: all 0.3s ease;
+        }
+
+        .wrapper {
+            display: flex;
+            min-height: 100vh;
+        }
+
+        .sidebar {
+            width: 240px;
+            background-color: var(--sidebar-bg);
+            color: white;
+            position: fixed;
+            height: 100vh;
+            transition: all 0.3s ease;
+            z-index: 1000;
+        }
+
+            .sidebar h2.logo {
+                padding: 25px 20px;
+                font-weight: bold;
+                border-bottom: 1px solid rgba(255,255,255,0.1);
+            }
+
+        .menu {
+            list-style: none;
+            padding: 0;
+            margin-top: 20px;
+        }
+
+            .menu li a {
+                display: block;
+                padding: 12px 20px;
+                color: var(--sidebar-text);
+                text-decoration: none;
+                transition: 0.2s;
+            }
+
+                .menu li.active a, .menu li a:hover {
+                    background: rgba(255,255,255,0.1);
+                    color: white;
+                    border-left: 4px solid #4318FF;
+                }
+
+        .main-content {
+            margin-left: 240px;
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .topbar {
+            height: 70px;
+            background: var(--topbar-bg);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 30px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+        }
+
+        .search-box {
+            background: var(--content-bg);
+            border: none;
+            padding: 8px 20px;
+            border-radius: 20px;
+            width: 300px;
+            color: var(--text-main);
+        }
+
+        .icon {
+            font-size: 1.2rem;
+            cursor: pointer;
+            margin-left: 15px;
+            color: var(--text-main);
+        }
+    </style>
+</head>
+<body data-theme="light">
+    <div class="wrapper">
+        <nav class="sidebar">
+            <h2 class="logo">NSBM</h2>
+            <ul class="menu">
+                @{
+                    // Helper to determine active state correctly
+                    string IsActive(string page) =>
+                    ViewContext.RouteData.Values["page"]?.ToString().Equals(page, StringComparison.OrdinalIgnoreCase) == true ? "active" : "";
+                }
+                <li class="@IsActive("/Index")">
+                    <a asp-page="/Index">🏠 Dashboard</a>
+                </li>
+                <li class="@IsActive("/Students")">
+                    <a asp-page="/Students">👤 Students</a>
+                </li>
+                <li class="@IsActive("/Supervisors")">
+                    <a asp-page="/Supervisors">🎓 Supervisor</a>
+                </li>
+
+                <li class="@IsActive("/Research")">
+                    <a asp-page="/Research">📖 Research</a>
+                </li>
+
+                <li class="@IsActive("/Matches")">
+                    <a asp-page="/Matches">📁 Matches</a>
+                </li>
+
+                <li><hr style="border-top: 1px solid rgba(255,255,255,0.1); margin: 20px 0;" /></li>
+
+                <li class="@IsActive("/Settings")">
+                    <a asp-page="/Settings">⚙️ Settings</a>
+                </li>
+            </ul>
+        </nav>
+
+        <div class="main-content">
+            <header class="topbar">
+                <div class="search-container">
+                    <input type="text" placeholder="Search matches..." class="search-box" />
+                </div>
+
+                <div class="top-icons">
+                    <span class="icon" id="themeBtn" title="Toggle Dark Mode">🌓</span>
+                    <span class="icon" title="Notifications">🔔</span>
+                    <a asp-page="/Settings" class="text-decoration-none">
+                        <span class="icon" title="Settings">⚙️</span>
+                    </a>
+                </div>
+            </header>
+
+            <main>
+                @RenderBody()
+            </main>
+        </div>
+    </div>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script>
+        // --- THEME PERSISTENCE ENGINE ---
+        const body = document.body;
+        const themeBtn = document.getElementById('themeBtn');
+
+        if (localStorage.getItem('theme') === 'dark') {
+            body.setAttribute('data-theme', 'dark');
+        }
+
+        themeBtn.addEventListener('click', () => {
+            if (body.getAttribute('data-theme') === 'light') {
+                body.setAttribute('data-theme', 'dark');
+                localStorage.setItem('theme', 'dark');
+            } else {
+                body.setAttribute('data-theme', 'light');
+                localStorage.setItem('theme', 'light');
+            }
+        });
+    </script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
