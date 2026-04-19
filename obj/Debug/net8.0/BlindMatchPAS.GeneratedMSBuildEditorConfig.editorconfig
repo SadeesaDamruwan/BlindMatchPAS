@@ -1,0 +1,151 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetFrameworkIdentifier = .NETCoreApp
+build_property.TargetFrameworkVersion = v8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = BlindMatchPAS
+build_property.RootNamespace = BlindMatchPAS
+build_property.ProjectDir = /Users/sadeesadamruwan/Downloads/BlindMatchPAS-main/
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = /Users/sadeesadamruwan/Downloads/BlindMatchPAS-main
+build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 8.0
+build_property.EnableCodeStyleSeverity = 
+
+[/Users/sadeesadamruwan/Downloads/BlindMatchPAS-main/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/sadeesadamruwan/Downloads/BlindMatchPAS-main/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/sadeesadamruwan/Downloads/BlindMatchPAS-main/Pages/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/sadeesadamruwan/Downloads/BlindMatchPAS-main/Pages/Shared/layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2hhcmVkL2xheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/sadeesadamruwan/Downloads/BlindMatchPAS-main/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/sadeesadamruwan/Downloads/BlindMatchPAS-main/Pages/Shared/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2hhcmVkL19WaWV3U3RhcnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/sadeesadamruwan/Downloads/BlindMatchPAS-main/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/sadeesadamruwan/Downloads/BlindMatchPAS-main/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/sadeesadamruwan/Downloads/BlindMatchPAS-main/Views/Account/AccessDenied.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWNjb3VudC9BY2Nlc3NEZW5pZWQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/sadeesadamruwan/Downloads/BlindMatchPAS-main/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWNjb3VudC9Mb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/sadeesadamruwan/Downloads/BlindMatchPAS-main/Views/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWNjb3VudC9SZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/sadeesadamruwan/Downloads/BlindMatchPAS-main/Views/Admin/Admin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW4vQWRtaW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/sadeesadamruwan/Downloads/BlindMatchPAS-main/Views/Admin/Matches.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW4vTWF0Y2hlcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/sadeesadamruwan/Downloads/BlindMatchPAS-main/Views/Admin/Research.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW4vUmVzZWFyY2guY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/sadeesadamruwan/Downloads/BlindMatchPAS-main/Views/Admin/settings.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW4vc2V0dGluZ3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/sadeesadamruwan/Downloads/BlindMatchPAS-main/Views/Admin/students.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW4vc3R1ZGVudHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/sadeesadamruwan/Downloads/BlindMatchPAS-main/Views/Admin/supervisor.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW4vc3VwZXJ2aXNvci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/sadeesadamruwan/Downloads/BlindMatchPAS-main/Views/Admin/Supervisors.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW4vU3VwZXJ2aXNvcnMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/sadeesadamruwan/Downloads/BlindMatchPAS-main/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/sadeesadamruwan/Downloads/BlindMatchPAS-main/Views/Home/Splash.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9TcGxhc2guY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/sadeesadamruwan/Downloads/BlindMatchPAS-main/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/sadeesadamruwan/Downloads/BlindMatchPAS-main/Views/Student/EditProject.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU3R1ZGVudC9FZGl0UHJvamVjdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/sadeesadamruwan/Downloads/BlindMatchPAS-main/Views/Student/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU3R1ZGVudC9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/sadeesadamruwan/Downloads/BlindMatchPAS-main/Views/Student/StudentDashboard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU3R1ZGVudC9TdHVkZW50RGFzaGJvYXJkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/sadeesadamruwan/Downloads/BlindMatchPAS-main/Views/Student/SubmitProject.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU3R1ZGVudC9TdWJtaXRQcm9qZWN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/sadeesadamruwan/Downloads/BlindMatchPAS-main/Views/Supervisor/ConfirmMatch.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU3VwZXJ2aXNvci9Db25maXJtTWF0Y2guY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/sadeesadamruwan/Downloads/BlindMatchPAS-main/Views/Supervisor/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU3VwZXJ2aXNvci9EZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/sadeesadamruwan/Downloads/BlindMatchPAS-main/Views/Supervisor/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU3VwZXJ2aXNvci9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/sadeesadamruwan/Downloads/BlindMatchPAS-main/Views/Supervisor/MyMatches.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU3VwZXJ2aXNvci9NeU1hdGNoZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/sadeesadamruwan/Downloads/BlindMatchPAS-main/Views/Supervisor/Settings.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU3VwZXJ2aXNvci9TZXR0aW5ncy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/sadeesadamruwan/Downloads/BlindMatchPAS-main/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/sadeesadamruwan/Downloads/BlindMatchPAS-main/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2hhcmVkL19MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-bphx04qxgy
